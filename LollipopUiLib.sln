@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LollipopUiLib", "LollipopUiLib\LollipopUiLib.csproj", "{F4D3E6AA-840E-425F-96FB-92354AE745EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{ABE64295-D7A0-4394-A2B0-9F66CC3424AC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F4D3E6AA-840E-425F-96FB-92354AE745EE} = {F4D3E6AA-840E-425F-96FB-92354AE745EE}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{F4D3E6AA-840E-425F-96FB-92354AE745EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4D3E6AA-840E-425F-96FB-92354AE745EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4D3E6AA-840E-425F-96FB-92354AE745EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE64295-D7A0-4394-A2B0-9F66CC3424AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE64295-D7A0-4394-A2B0-9F66CC3424AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE64295-D7A0-4394-A2B0-9F66CC3424AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE64295-D7A0-4394-A2B0-9F66CC3424AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
