@@ -1,25 +1,18 @@
 ﻿
 using LollipopUiLib.Properties;
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Text;
 using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 public class FontManager
 {
-
     public Font Roboto_Medium15;
     public Font Roboto_Medium10;
-    public Font Roboto_Regular10;
-
-   
+    public Font Roboto_Regular10;   
     public Font Roboto_Medium9;
     public Font Roboto_Regular9;
-
 
     public FontManager()
     {
