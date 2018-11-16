@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LollipopUiLib", "LollipopUiLib\LollipopUiLib.csproj", "{F4D3E6AA-840E-425F-96FB-92354AE745EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4D3E6AA-840E-425F-96FB-92354AE745EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4D3E6AA-840E-425F-96FB-92354AE745EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4D3E6AA-840E-425F-96FB-92354AE745EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4D3E6AA-840E-425F-96FB-92354AE745EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51892A91-19F7-43E8-8AB6-651EA5D6AC87}
+	EndGlobalSection
+EndGlobal
